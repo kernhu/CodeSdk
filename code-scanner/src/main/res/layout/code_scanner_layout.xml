@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/code_scanner_artwork"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:background="@android:color/transparent"
+        android:visibility="gone" />
+
+    <androidx.camera.view.PreviewView
+        android:id="@+id/code_scanner_preview_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.xcion.code.scanner.widget.ViewfinderView
+        android:id="@+id/code_scanner_viewfinder_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:id="@+id/code_scanner_flashlight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/code_scanner_flashlight_margin_top"
+        android:contentDescription="@null"
+        android:src="@drawable/code_scanner_flashlight_selector"
+        android:visibility="visible" />
+
+</FrameLayout>

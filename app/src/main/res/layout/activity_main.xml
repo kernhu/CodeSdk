@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/scanner_all_1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#009688"
+            android:gravity="center"
+            android:text="@string/code_scanner_in_activity"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/scanner_all_2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#03A9F4"
+            android:gravity="center"
+            android:text="@string/code_scanner_in_fragment"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/scanner_all_3"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#9C27B0"
+            android:gravity="center"
+            android:text="@string/code_scanner_custom_in_activity"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/scanner_all_4"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#FF9800"
+            android:gravity="center"
+            android:text="@string/code_scanner_custom_in_fragment"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/creator_all"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#FF5722"
+            android:gravity="center"
+            android:text="@string/code_creator"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/creator_list"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#8BC34A"
+            android:gravity="center"
+            android:text="@string/code_creator_multi"
+            android:textColor="#ffffff" />
+
+    </LinearLayout>
+
+</layout>

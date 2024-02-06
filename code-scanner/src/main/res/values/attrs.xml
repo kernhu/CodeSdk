@@ -1,0 +1,88 @@
+<resources>
+
+    <declare-styleable name="ViewfinderView">
+        <attr name="vfvViewfinderStyle" format="enum">
+            <enum name="classic" value="0" />
+            <enum name="popular" value="1" />
+        </attr>
+        <attr name="vfvMaskColor" format="color" />
+        <attr name="vfvFrameColor" format="color" />
+        <attr name="vfvFrameWidth" format="dimension" />
+        <attr name="vfvFrameHeight" format="dimension" />
+        <attr name="vfvFrameRatio" format="float" />
+        <attr name="vfvFrameLineStrokeWidth" format="dimension" />
+        <attr name="vfvFramePaddingLeft" format="dimension" />
+        <attr name="vfvFramePaddingTop" format="dimension" />
+        <attr name="vfvFramePaddingRight" format="dimension" />
+        <attr name="vfvFramePaddingBottom" format="dimension" />
+        <attr name="vfvFrameGravity" format="enum">
+            <enum name="center" value="0" />
+            <enum name="left" value="1" />
+            <enum name="top" value="2" />
+            <enum name="right" value="3" />
+            <enum name="bottom" value="4" />
+        </attr>
+        <attr name="vfvFrameCornerColor" format="color" />
+        <attr name="vfvFrameCornerSize" format="dimension" />
+        <attr name="vfvFrameCornerStrokeWidth" format="dimension" />
+        <attr name="vfvFrameDrawable" format="reference" />
+
+        <attr name="vfvLaserLineHeight" format="dimension" />
+        <attr name="vfvLaserMovementSpeed" format="dimension" />
+        <attr name="vfvLaserAnimationInterval" format="integer" />
+        <attr name="vfvLaserGridColumn" format="integer" />
+        <attr name="vfvLaserGridHeight" format="dimension" />
+        <attr name="vfvLaserColor" format="color" />
+        <attr name="vfvLaserStyle" format="enum">
+            <enum name="none" value="0" />
+            <enum name="line" value="1" />
+            <enum name="grid" value="2" />
+            <enum name="image" value="3" />
+        </attr>
+        <attr name="vfvLaserDrawable" format="reference" />
+        <attr name="vfvLaserDrawableRatio" format="float" />
+
+        <attr name="vfvLabelText" format="string" />
+        <attr name="vfvLabelTextColor" format="color" />
+        <attr name="vfvLabelTextSize" format="dimension" />
+        <attr name="vfvLabelTextPadding" format="dimension" />
+        <attr name="vfvLabelTextWidth" format="dimension" />
+        <attr name="vfvLabelTextLocation" format="enum">
+            <enum name="top" value="0" />
+            <enum name="bottom" value="1" />
+        </attr>
+
+        <attr name="vfvPointColor" format="color" />
+        <attr name="vfvPointStrokeColor" format="color" />
+        <attr name="vfvPointRadius" format="dimension" />
+        <attr name="vfvPointStrokeRatio" format="float" />
+        <attr name="vfvPointDrawable" format="reference" />
+        <attr name="vfvPointAnimation" format="boolean" />
+        <attr name="vfvPointAnimationInterval" format="integer" />
+
+    </declare-styleable>
+
+    <!-- for CodeScannerView -->
+    <declare-styleable name="CodeScannerView">
+        <attr name="csvCodeFormat" format="enum">
+            <enum name="ALL" value="0" />
+            <enum name="BARCODE" value="1" />
+            <enum name="QRCODE" value="2" />
+        </attr>
+        <attr name="csvViewfinderLaserStyle" format="enum">
+            <enum name="LINE" value="0" />
+            <enum name="GRID" value="1" />
+        </attr>
+
+        <attr name="csvHeaderLayoutId" format="reference" />
+        <attr name="csvFooterLayoutId" format="reference" />
+        <attr name="csvSelectAlbumId" format="reference" />
+        <attr name="csvCustomLaserDrawableId" format="reference" />
+        <attr name="csvCustomFrameDrawableId" format="reference" />
+        <attr name="csvViewfinderColorId" format="color" />
+        <attr name="csvBeepEnable" format="boolean" />
+        <attr name="csvVibrateEnable" format="boolean" />
+
+    </declare-styleable>
+
+</resources>

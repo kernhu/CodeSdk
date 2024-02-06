@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.xcion.code.scanner.CodeScannerView
+        android:id="@+id/code_scanner_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:csvBeepEnable="true"
+        app:csvCodeFormat="ALL"
+        app:csvFooterLayoutId="@layout/custom_code_scanner_footer"
+        app:csvHeaderLayoutId="@layout/custom_code_scanner_header"
+        app:csvSelectAlbumId="@id/footer_album"
+        app:csvVibrateEnable="true"
+        app:csvViewfinderColorId="@color/viewfinderColor"
+        app:csvViewfinderLaserStyle="GRID" />
+
+</layout>

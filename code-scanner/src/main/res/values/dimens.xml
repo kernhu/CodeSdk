@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="code_scanner_flashlight_margin_top">90dp</dimen>
+</resources>

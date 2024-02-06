@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/scanner_all"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#009688"
+            android:gravity="center"
+            android:text="扫码（条形码/二维码）"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/creator_all"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#FF5722"
+            android:gravity="center"
+            android:text="创建（条形码/二维码）"
+            android:textColor="#ffffff" />
+
+    </LinearLayout>
+
+</layout>

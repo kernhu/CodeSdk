@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CodeSdk</string>
+    <string name="warn_content_lawless">barcode could not contains Chinese characters</string>
+    <string name="warn_content_empty">content could not be null</string>
+    <string name="code_scanner_in_activity">scan QRCode/Barcode in Activity</string>
+    <string name="code_scanner_in_fragment">scan QRCode/Barcode in Fragment</string>
+    <string name="code_scanner_custom_in_activity">scan QRCode/Barcode in CustomActivity</string>
+    <string name="code_scanner_custom_in_fragment">scan QRCode/Barcode in CustomFragment</string>
+    <string name="code_creator">generate QRCode/Barcode </string>
+    <string name="code_creator_multi">generate multi QRCode/Barcode </string>
+
+</resources>

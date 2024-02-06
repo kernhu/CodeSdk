@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CodeSdk</string>
+    <string name="warn_content_lawless">条形码内容不可包含汉字</string>
+    <string name="warn_content_empty">二维码内容不能为空</string>
+    <string name="code_scanner_in_activity">扫码（条形码/二维码）Activity</string>
+    <string name="code_scanner_in_fragment">扫码（条形码/二维码）Fragment</string>
+    <string name="code_scanner_custom_in_activity">扫码（条形码/二维码）CustomActivity</string>
+    <string name="code_scanner_custom_in_fragment">扫码（条形码/二维码）CustomFragment</string>
+    <string name="code_creator">创建（条形码/二维码）</string>
+    <string name="code_creator_multi">创建（条形码/二维码）列表</string>
+</resources>
