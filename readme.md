@@ -1,7 +1,7 @@
 ![image](./static/icon_logo.png)
 
 &#x1F353; **CodeSdk** is a kotlin library for scanning and generating QRCode and BarCode fastly and easily. The efficiency and speed more than **Zxing** to scan and analyse the QRCode or Barcode.
-
+[![](https://jitpack.io/v/kernhu/CodeSdk.svg)](https://jitpack.io/#kernhu/CodeSdk)
 &#x1F353; **CodeSdk** 是一个可以快速且便捷的扫描、解析和生成 一维码或二维码的纯kotlin库，扫码和解析出数据的能力和速度远超Zxing。
 
 ---------------------------
@@ -21,9 +21,6 @@ compile.
 
 ![image](./static/demo-prview.gif)
 
-
-
-[![](https://jitpack.io/v/kernhu/CodeSdk.svg)](https://jitpack.io/#kernhu/CodeSdk)
 
 ### Ⅲ: How to use code-scanner?
 
