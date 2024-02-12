@@ -21,17 +21,34 @@ compile.
 
 ![image](./static/demo-prview.gif)
 
+
+
+[![](https://jitpack.io/v/kernhu/CodeSdk.svg)](https://jitpack.io/#kernhu/CodeSdk)
+
 ### Ⅲ: How to use code-scanner?
 
-1.add dependence in your build.gradle
+1.Add it in your root build.gradle at the end of repositories:
+```kotlin
+	dependencyResolutionManagement {
+		repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+		repositories {
+			mavenCentral()
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+
+2.add dependence in your build.gradle
 
 ```kotlin
-implementation 'com.xcion.code:scanner-lite:1.1.0'
+dependencies {
+   implementation 'com.github.kernhu:CodeSdk:Tag'
+}
 ```
 
 ---
 
-2. you can only extend **CodeScannerActivity** or  **CodeScannerFragment**, then override all the
+3. you can only extend **CodeScannerActivity** or  **CodeScannerFragment**, then override all the
    function . please refer to the class **ScannerActivity** and **ScannerFragment**. such as:
 
 ```kotlin
@@ -61,7 +78,7 @@ override fun onScanResult(content: String) {
 
 ---
 
-3. if you don't want to extend **CodeScannerActivity** or  **CodeScannerFragment**,you can use **
+4. if you don't want to extend **CodeScannerActivity** or  **CodeScannerFragment**,you can use **
    CodeScannerView**,please refer to the class **CustomScannerActivity** and **
    CustomScannerFragment**. such as:
 
@@ -128,8 +145,10 @@ override fun onScanResult(content: String) {
 
 1.add dependence in your build.gradle
 
-```kotlin
-implementation 'com.xcion.code:scanner-lite:1.1.0'
+```
+dependencies {
+   implementation 'com.github.kernhu:CodeSdk:Tag'
+}
 ```
 
 2. you can call the class **CodeCreator** ,please refer to the class **CreatorActivity** , such as
